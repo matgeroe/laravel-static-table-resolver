@@ -1,0 +1,31 @@
+{
+  "name": "matthiaswilbrink/laravel-static-table-resolver",
+  "authors": [
+    {
+      "name": "Matthias Wilbrink"
+    }
+  ],
+  "description": "Resolve a model's table quickly",
+  "type": "library",
+  "require": {
+    "php": ">=7.0",
+    "illuminate/database": ">=5.8"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "MatthiasWilbrink\\TableResolver\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MatthiasWilbrink\\TableResolver\\tests\\": "tests/"
+    }
+  }
+}
